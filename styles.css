@@ -1,10 +1,57 @@
 @font-face
 {
 font-family: dark;
-src: url('dark.ttf'),
+src: url('dark.ttf');
+}
+@keyframes spinnerrotate{
+    from {transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
 }
 body{
-    display: block;
     font-family: dark;
     background-image: url(background.jpg);
+    background-size: 100%;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    color: black;
+}
+.header1 * {
+    height: 200px;
+    
+}
+#img1{
+    float: left;
+    width: 300px;
+}
+#img1{
+    animation-name:spinnerrotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.header1 img{
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.header1 p{
+    
+    background-color: black;
+  
+}
+.header1:hover {
+    background-color: grey;
+}
+#paragraph1 {
+    display: block;
+    border-color: black;
+    margin-left: 50px;
+}
+nav div{
+    float: left;
+    background-color: yellow
+}
+nav div:hover{
+    background-color: red;
 }
