@@ -1,5 +1,10 @@
 @font-face
 {
-font-family: TrustyHomePage;
+font-family: dark;
 src: url('dark.ttf'),
+}
+body{
+    display: block;
+    font-family: dark;
+    background-image: url(background.jpg);
 }
